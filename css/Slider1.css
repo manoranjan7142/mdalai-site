@@ -1,0 +1,12 @@
+#slider1 {
+    display: flex;
+    overflow: hidden;
+    justify-content: center; /* Center the images horizontally */
+}
+
+#slider1 a img {
+    max-width: 100%; /* Ensure the image does not overflow its container */
+    height: auto;    /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height for the images */
+    margin: 0 10px;  /* Optional: Add some spacing between images */
+}
